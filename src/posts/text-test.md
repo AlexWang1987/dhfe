@@ -20,3 +20,5 @@ HERE WE GO!<br>
 这里的声明全局变量是和 JavaScript 的 var 比较的，原文其实已经告诉你答案了（how come），Node 每个文件都有自己的作用域，你在文件内通过 var 声明的全局变量只能用在该文件内，不过你可以像 JavaScript 的 window 一样给 global 赋值。<br>
 
 > 当暴露一个 Node 模块的 API 时, 为什么我们有时候用 exports 有时候用 module.exports?
+
+> exports
